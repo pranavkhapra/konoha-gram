@@ -1,7 +1,7 @@
 const comments = {
-  postid1: [
+  BAhvZrRwcfu: [
     {
-      text: 'Totally need to try this.',
+      text: `Great!!!`,
       user: 'heavymetaladam',
     },
   ],

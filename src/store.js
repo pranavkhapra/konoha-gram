@@ -1,15 +1,15 @@
 import { createStore } from 'redux';
-import rootReducer from './reducers';
+import reducer from './reducers/index';
 import posts from './data/posts';
 import comments from './data/comments';
 
+// create an object for the default data
 const defaultState = {
   posts,
   comments,
 };
-
 const store = createStore(
-  rootReducer,
+  reducer,
   defaultState,
   // so that we can integerate the redux dev tools here
   typeof window === 'object' &&

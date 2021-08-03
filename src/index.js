@@ -8,21 +8,17 @@ import Posts from './components/Posts';
 import SinglePost from './components/SinglePost';
 import store from './store';
 
-const Konohagram = () => (
+const Index = () => (
   <Provider store={store}>
     <Router>
+      <Route path="/" component={NavBar} />
       <Switch>
-        <Route path="/" exact>
-          <NavBar />
-          <Posts />
-        </Route>
-        <Route path="/view/:postId" exact>
-          <NavBar />
-          <SinglePost />
-        </Route>
+        <Route exact path="/" component={Posts} />
+        <Route exact path="/view/:photoId" component={SinglePost} />
+        {/* <Route path="*" component={NotFound} /> */}
       </Switch>
     </Router>
   </Provider>
 );
 
-ReactDOM.render(<Konohagram />, document.getElementById('root'));
+ReactDOM.render(<Index />, document.getElementById('root'));

@@ -1,13 +1,20 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
-const NavBar = () => (
-  <div>
-    <h1>
-      <Link to="/">Konoha-gram</Link>
-    </h1>
-  </div>
-);
+const NavBar = () => {
+  const posts = useSelector((state) => state.posts);
+  const comments = useSelector((state) => state.comments);
+  return (
+    <div>
+      <h1>
+        {/* <Link to="/">Konoha-gram</Link> */}
+        {posts}
+        <div className="photo-grid">{comments}</div>
+      </h1>
+    </div>
+  );
+};
 
 export default NavBar;
