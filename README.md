@@ -1,5 +1,6 @@
 
-**konaha-gram** a single page application I made, in attempt to revise the   integratation of  Redux with React. I'm not going to say it's an _instagram clone_, but ya know. The finished product can be viewed at online at https://konaha-gram.netlify.app/.
+## konaha-gram
+*konaha-gram* a single page application I made, in attempt to revise the   integratation of  Redux with React. I'm not going to say it's an _instagram clone_, but ya know. The finished product can be viewed at online at https://konaha-gram.netlify.app/.
 
 ## Using the app
 
