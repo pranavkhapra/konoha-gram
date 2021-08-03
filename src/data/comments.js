@@ -1,11 +1,11 @@
 const comments = {
-  BAhvZrRwcfu: [
+  post1: [
     {
       text: 'Totally need to try this.',
       user: 'heavymetaladam',
     },
   ],
-  BAcyDyQwcXX: [
+  post2: [
     {
       text: 'Wes. WE should have lunch.',
       user: 'jdaveknox',
@@ -23,7 +23,7 @@ const comments = {
       user: 'willowtreemegs',
     },
   ],
-  BAPIPRjQce9: [
+  post3: [
     {
       text: "Those are cute! They're like silver dollar pancakes.",
       user: 'rrsimonsen',
@@ -61,7 +61,7 @@ const comments = {
       user: 'world_greg',
     },
   ],
-  BAF_KY4wcRY: [
+  post4: [
     {
       text: "Looking great Wes! I'd like to see the other side of the room too.",
       user: 'axcdnt',
@@ -95,13 +95,13 @@ const comments = {
       user: 'wesbos',
     },
   ],
-  _4jHytwcUA: [
+  post5: [
     {
       text: 'that is the sound of success!',
       user: 'mdxprograms',
     },
   ],
-  _zbaOlQcbn: [
+  post6: [
     {
       text: 'Did she get to eat her letter?',
       user: 'pathiebert',
@@ -111,7 +111,7 @@ const comments = {
       user: 'kaitbos',
     },
   ],
-  _rmvQfQce8: [
+  post7: [
     {
       text: 'A+',
       user: 'mrjoedee',
@@ -121,13 +121,13 @@ const comments = {
       user: 'jrtashjian',
     },
   ],
-  _ep9kiQcVy: [
+  post8: [
     {
       text: 'All bundled up!  Where ya goin?',
       user: 'sophie_and_sadie',
     },
   ],
-  _XpJcrwcSn: [
+  post9: [
     {
       text: "Super congrats! That's wicked cool and looks great.",
       user: 'pmgllc',
@@ -141,8 +141,7 @@ const comments = {
       user: 'wesbos',
     },
   ],
-  _KnU7MwceA: [],
-  _HMejJQcY5: [
+  post10: [
     {
       text: '👌',
       user: 't_volpe',
@@ -152,7 +151,7 @@ const comments = {
       user: 'imagesofthisandthat',
     },
   ],
-  _Fq2zmwcaz: [
+  post11: [
     {
       text: '😍',
       user: 'melsariffodeen',
@@ -162,35 +161,20 @@ const comments = {
       user: 'ka11away',
     },
   ],
-  _A2r0aQcfD: [
+  post12: [
     {
       text: 'Uhu!',
       user: 'lucascaixeta',
     },
   ],
-  '1rhFawccs': [
-    {
-      text: "What's your lighting source?",
-      user: 'seth_mcleod',
-    },
-    {
-      text: 'And what are you using for XLR mix adapter? I found a big price jump between $55 range and $170 range.',
-      user: 'pmgllc',
-    },
-    {
-      text: 'I still need a desk boom for mine mic. Nice upgrades',
-      user: 'stolinski',
-    },
-  ],
-  'pjx-gQcVi': [],
-  oTZ0zQcWt: [
+
+  post13: [
     {
       text: "Love the coat! Where's it from? Lol",
       user: '_lindersss',
     },
   ],
-  mxKQoQcQh: [],
-  hZh6IQcfN: [
+  post14: [
     {
       text: 'What do we gotta do to get some :)? @wesbos',
       user: 'jonasbad',
@@ -220,7 +204,7 @@ const comments = {
       user: 'gabrielvieira.me',
     },
   ],
-  fasqlQceO: [
+  post15: [
     {
       text: "Where's lux at? 💤?",
       user: 'henrihelvetica',
@@ -230,7 +214,7 @@ const comments = {
       user: 'danielleplas',
     },
   ],
-  VBgtGQcSf: [
+  post17: [
     {
       text: '@dogsandbrew',
       user: 'likea_bos',
@@ -244,7 +228,7 @@ const comments = {
       user: 'trevorb_91',
     },
   ],
-  FpTyHQcau: [
+  post18: [
     {
       text: '@kaitbos  that vest!!! 😍',
       user: 'courtneyeveline',
@@ -282,7 +266,7 @@ const comments = {
       user: 'wesbos',
     },
   ],
-  B3eiIwcYV: [
+  post19: [
     {
       text: "If you get in the mood for authentic Italian pizza, check out @backspaceaustin - it's👌🏻",
       user: 'dessie.ann',

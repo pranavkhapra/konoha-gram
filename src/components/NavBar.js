@@ -6,7 +6,6 @@ const NavBar = () => (
   <div>
     <h1>
       <Link to="/">Konoha-gram</Link>
-      hi
     </h1>
   </div>
 );
