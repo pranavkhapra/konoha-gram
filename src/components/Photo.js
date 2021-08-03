@@ -7,7 +7,7 @@ import addLike from '../actionCreators/addLike';
 
 function Photo({ post, index }) {
   const comments = useSelector((state) => state.comments);
-  const posts = useSelector((state) => state.posts);
+  // const posts = useSelector((state) => state.posts);
   const dispatch = useDispatch();
 
   console.log(comments[post.code]);
