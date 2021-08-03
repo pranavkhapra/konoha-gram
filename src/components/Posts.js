@@ -1,7 +1,17 @@
 import { useSelector } from 'react-redux';
+import Photo from './Photo';
 
-const posts = useSelector((state) => state.posts);
-const comments = useSelector((state) => state.comments);
-const Posts = () => <div className="photo-grid">{comments}</div>;
+const Posts = () => {
+  const posts = useSelector((state) => state.posts);
+  return (
+    <div>
+      <div className="photo-grid">
+        {posts.map((post, index) => (
+          <Photo key={index} index={index} post={post} />
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default Posts;

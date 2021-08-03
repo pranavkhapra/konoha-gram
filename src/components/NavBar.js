@@ -10,8 +10,10 @@ const NavBar = () => {
     <div>
       <h1>
         {/* <Link to="/">Konoha-gram</Link> */}
-        {posts}
-        <div className="photo-grid">{comments}</div>
+        {posts.map((post) => (
+          <div>{post}</div>
+        ))}
+        {/* <div className="photo-grid">{posts}</div> */}
       </h1>
     </div>
   );

@@ -7,6 +7,7 @@ import comments from './data/comments';
 const defaultState = {
   posts,
   comments,
+  numbers: 1,
 };
 const store = createStore(
   reducer,

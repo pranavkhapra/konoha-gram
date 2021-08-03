@@ -11,7 +11,7 @@ import store from './store';
 const Index = () => (
   <Provider store={store}>
     <Router>
-      <Route path="/" component={NavBar} />
+      {/* <Route path="/" component={NavBar} /> */}
       <Switch>
         <Route exact path="/" component={Posts} />
         <Route exact path="/view/:photoId" component={SinglePost} />
