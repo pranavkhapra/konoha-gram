@@ -169,7 +169,8 @@ img {
 }
 
 /* INITIAL */
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
 html {
   font-size: 10px;
   font-family: sans-serif;
@@ -179,7 +180,7 @@ p {
   line-height: 1.5;
 }
 h1 {
-  font-family: billabong, 'billabongregular';
+  font-family: 'Fredoka One', cursive;
   text-align: center;
   font-weight: 100;
   font-size: 13rem;
@@ -193,26 +194,13 @@ h1 {
   }
 }
 h1 a {
-  color: #125688;
+  color:#F62459;
   text-decoration: none;
 }
 h1 a:focus {
   outline: 0;
 }
-@font-face {
-  font-family: 'billabongregular';
-  src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot');
-  src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix')
-      format('embedded-opentype'),
-    url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff')
-      format('woff'),
-    url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf')
-      format('truetype'),
-    url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular')
-      format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 /* ANIMATIONS */
 
@@ -237,7 +225,8 @@ h1 a:focus {
 /* GENERAL */
 
 body {
-  background: #fafafa;
+  font-family: 'Mali', cursive;
+  background-color: #FCC9B9;
 }
 .photo-grid {
   display: flex;
@@ -252,8 +241,8 @@ body {
   flex-shrink: 0;
   margin: 0 2rem 2rem 2rem;
   padding: 2rem;
-  border: 1px solid #edeeed;
-  background: #fff;
+  border: 1px solid #757D75;
+  background: #89729E;
   box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.03);
   position: relative;
 }
@@ -261,7 +250,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   display: flex;
-  background: #fff;
+  background:#e8ccd7;
 }
 .single-photo .grid-figure {
   box-shadow: none;
@@ -270,6 +259,8 @@ body {
   padding: 0;
   flex: 1 0 60%;
   max-width: 60%;
+  background:#e8ccd7;
+  
 }
 .single-photo .comments {
   flex: 1 0 40%;
@@ -284,6 +275,7 @@ body {
   margin-left: -2rem;
   margin-top: -2rem;
   max-width: none;
+  
 }
 .remove-comment {
   background: none;
@@ -295,7 +287,7 @@ body {
   color: #f00;
 }
 .comment {
-  border-bottom: 1px solid #edeeed;
+  border-bottom: 1px solid #ff878d;
   padding: 0.5rem 0;
 }
 .comment p {
@@ -303,7 +295,7 @@ body {
   margin: 0;
 }
 .comment strong {
-  color: #125688;
+  color: #f88379;
   margin-right: 5px;
 }
 .comment:hover .remove-comment {
@@ -313,9 +305,10 @@ body {
 .comment-form textarea {
   width: 100%;
   border: 0;
+  background:#fdbcb4;
   font-size: 1.3rem;
   padding: 1rem 0;
-  border-bottom: 1px solid #edeeed;
+  border-bottom: 1px solid #ff91af;
   outline: none;
   resize: vertical;
 }
@@ -323,12 +316,12 @@ body {
   position: relative;
 }
 .likes-heart {
-  background: #fff;
+  background: #044f67;
   border-radius: 100%;
   font-size: 2rem;
   padding: 1rem;
   position: absolute;
-  color: #125688;
+  color: #f58f84;
   left: 50%;
   top: 50%;
   pointer-events: none;
@@ -342,7 +335,7 @@ body {
 }
 button,
 .button {
-  border: 2px solid #f2f2f2;
+  border: 2px solid #125688;
   background: none;
   flex-basis: 48%;
   display: inline-block;
@@ -359,7 +352,7 @@ button:hover,
 .button:hover,
 button:focus,
 .button:focus {
-  border-color: #125688;
+  border-color: #fff;
   outline: 0;
 }
 /*
@@ -368,7 +361,7 @@ button:focus,
 .speech-bubble {
   width: 1.5rem;
   height: 1.25rem;
-  background: #125688;
+  background: #F47983;
   display: inline-block;
   border-radius: 50%;
   position: relative;
@@ -381,7 +374,7 @@ button:focus,
   height: 0;
   border-style: solid;
   border-width: 0 1.25rem 1.25rem 0;
-  border-color: transparent #125688 transparent transparent;
+  border-color: transparent #F47983 transparent transparent;
   top: 30%;
   left: 0;
 }
