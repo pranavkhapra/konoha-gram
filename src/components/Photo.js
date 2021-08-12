@@ -10,7 +10,7 @@ function Photo({ post, index }) {
   // const posts = useSelector((state) => state.posts);
   const dispatch = useDispatch();
 
-  console.log(comments[post.code]);
+  // console.log(comments[post.code]);
   return (
     <figure className="grid-figure">
       <div className="grid-photo-wrap">
